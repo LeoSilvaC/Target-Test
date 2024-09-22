@@ -127,6 +127,6 @@ const maiorFaturamento = Math.max(...diasComFaturamento.map(dia => dia.valor));
 const somaFaturamento = diasComFaturamento.reduce((acc, dia) => acc + dia.valor, 0);
 const mediaFaturamento = somaFaturamento / diasComFaturamento.length;
 
-console.log("Menor faturamento: " + menorFaturamento.toFixed(2));
-console.log("Maior faturamento: " + maiorFaturamento.toFixed(2));
-console.log("Média de faturamento: " + mediaFaturamento.toFixed(2));
+console.log(`Menor faturamento: ${menorFaturamento.toFixed(2)}`);
+console.log(`Maior faturamento: ${maiorFaturamento.toFixed(2)}`);
+console.log(`Media Faturamente: ${mediaFaturamento.toFixed(2)}`);
